@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdul Sami Hanzla – Resume</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <img src="photo.svg" alt="Portrait of Abdul Sami Hanzla">
+    <div class="identity">
+      <p class="eyebrow">Student Resume</p>
+      <h1>Abdul Sami Hanzla</h1>
+      <p class="role">BS Computer Science student · Aspiring software developer</p>
+      <p class="uni">University of Management and Technology (UMT), Lahore</p>
+    </div>
+  </header>
+
+  <div class="layout">
+
+    <aside class="sidebar">
+      <section>
+        <h2>Contact</h2>
+        <address>
+          <dl>
+            <dt>Email</dt>
+            <dd><a href="mailto:sami.hanzla@example.com">sami.hanzla@example.com</a></dd>
+            <dt>Phone</dt>
+            <dd>+92 300 1234567</dd>
+            <dt>Location</dt>
+            <dd>Lahore, Pakistan</dd>
+            <dt>GitHub</dt>
+            <dd><a href="https://github.com/samihanzla16-cmyk">github.com/samihanzla16-cmyk</a></dd>
+            <dt>LinkedIn</dt>
+            <dd><a href="https://linkedin.com/in/sami-hanzla-20953537b">linkedin.com/in/sami-hanzla</a></dd>
+          </dl>
+        </address>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML &amp; CSS</li>
+          <li>SQL &amp; MySQL Workbench</li>
+          <li>Database design &amp; normalization</li>
+          <li>Computer networking basics</li>
+          <li>Git &amp; GitHub</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Languages</h2>
+        <ul>
+          <li>English</li>
+          <li>Urdu</li>
+          <li>Punjabi</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Interests</h2>
+        <ul>
+          <li>Web development</li>
+          <li>Hafiz-e-Quran</li>
+          <li>Learning new tech</li>
+        </ul>
+      </section>
+
+      <div class="callout">
+        <h3>Looking ahead</h3>
+        <p>Seeking a summer 2027 internship in software or web development.</p>
+      </div>
+    </aside>
+
+    <main>
+      <section>
+        <h2>Profile</h2>
+        <p>
+          I'm a 4th-semester Computer Science student at UMT who likes
+          understanding how things work, from databases to networks to websites.
+          I'm building a strong base in web development and databases, and I
+          enjoy learning by making small, practical projects.
+        </p>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Year</th>
+              <th scope="col">Qualification</th>
+              <th scope="col">Institution</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2025–2029</td>
+              <td>BS Computer Science<br>Semester 4 · In progress</td>
+              <td>University of Management and Technology<br>Lahore</td>
+            </tr>
+            <tr>
+              <td>2023–2025</td>
+              <td>FSc Pre-Engineering<br>Maths, Physics, Chemistry</td>
+              <td>Punjab Group of Colleges<br>Lahore</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Selected projects</h2>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>Personal portfolio website</h3>
+            <span class="tags">HTML · CSS</span>
+          </div>
+          <p>Built my own portfolio site to show my work, with a simple layout that is easy to read on any screen.</p>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>DBMS practice database</h3>
+            <span class="tags">SQL · MySQL</span>
+          </div>
+          <p>Designed tables and wrote queries with joins in MySQL Workbench, and practiced normalization on sample data.</p>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>Network design assignment</h3>
+            <span class="tags">Networking · Subnetting</span>
+          </div>
+          <p>Planned a multi-AS network topology with subnetting for a Computer Networks course.</p>
+        </article>
+      </section>
+
+      <section>
+        <h2>Experience</h2>
+        <article class="job">
+          <div class="project-head">
+            <h3>Student volunteer</h3>
+            <span class="date">Sep 2025–present</span>
+          </div>
+          <p class="org">UMT Computer Science Society</p>
+          <ul>
+            <li>Help set up events and keep the society's online pages up to date.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section>
+        <h2>Get in touch</h2>
+        <p>Have a project or opportunity in mind? Leave me a message.</p>
+        <form>
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name">
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com">
+            </div>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me a little about your idea..."></textarea>
+          </div>
+          <div class="form-actions">
+            <button type="submit">Send message</button>
+            <span class="note">Demo form · No messages are sent.</span>
+          </div>
+        </form>
+      </section>
+    </main>
+
+  </div>
+
+  <footer>
+    <span>© 2026 Abdul Sami Hanzla</span>
+    <span>Student portfolio · Updated November 2026</span>
+  </footer>
+
+</body>
+</html>
